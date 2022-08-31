@@ -8,7 +8,8 @@ import {
 
 export = defineConfig(ctx => ({
   theme: '@vuepress/vue',
-  dest: '../../vuepress',
+  dest: '../../docs',
+  base: '/vuepress-blog/',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],

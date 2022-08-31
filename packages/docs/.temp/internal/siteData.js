@@ -4,20 +4,20 @@
 export const siteData = {
   "title": "",
   "description": "",
-  "base": "/",
+  "base": "/vuepress-blog/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/logo.png"
+        "href": "/vuepress-blog/logo.png"
       }
     ],
     [
       "link",
       {
         "rel": "manifest",
-        "href": "/manifest.json"
+        "href": "/vuepress-blog/manifest.json"
       }
     ],
     [
@@ -45,14 +45,14 @@ export const siteData = {
       "link",
       {
         "rel": "apple-touch-icon",
-        "href": "/icons/apple-touch-icon-152x152.png"
+        "href": "/vuepress-blog/icons/apple-touch-icon-152x152.png"
       }
     ],
     [
       "link",
       {
         "rel": "mask-icon",
-        "href": "/icons/safari-pinned-tab.svg",
+        "href": "/vuepress-blog/icons/safari-pinned-tab.svg",
         "color": "#3eaf7c"
       }
     ],
@@ -117,7 +117,9 @@ export const siteData = {
           "title": "more commands",
           "slug": "more-commands"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Node.js API",
@@ -192,7 +194,117 @@ export const siteData = {
           "title": "siteConfig",
           "slug": "siteconfig"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-13007057",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Why can’t palette.styl and index.styl merge into one API?",
+          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
+        },
+        {
+          "level": 2,
+          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
+          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
+        },
+        {
+          "level": 2,
+          "title": "When do I need to use enhanceAppFiles?",
+          "slug": "when-do-i-need-to-use-enhanceappfiles"
+        },
+        {
+          "level": 2,
+          "title": "When do I need to use clientDynamicModules?",
+          "slug": "when-do-i-need-to-use-clientdynamicmodules"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-2484b16a",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "How It Works",
+          "slug": "how-it-works"
+        },
+        {
+          "level": 2,
+          "title": "Features",
+          "slug": "features"
+        },
+        {
+          "level": 2,
+          "title": "Why Not ...?",
+          "slug": "why-not"
+        },
+        {
+          "level": 3,
+          "title": "Nuxt",
+          "slug": "nuxt"
+        },
+        {
+          "level": 3,
+          "title": "Docsify / Docute",
+          "slug": "docsify-docute"
+        },
+        {
+          "level": 3,
+          "title": "Hexo",
+          "slug": "hexo"
+        },
+        {
+          "level": 3,
+          "title": "GitBook",
+          "slug": "gitbook"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Asset Handling",
+      "frontmatter": {},
+      "regularPath": "/guide/assets.html",
+      "relativePath": "guide/assets.md",
+      "key": "v-23983456",
+      "path": "/guide/assets.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Relative URLs",
+          "slug": "relative-urls"
+        },
+        {
+          "level": 2,
+          "title": "Public Files",
+          "slug": "public-files"
+        },
+        {
+          "level": 2,
+          "title": "Base URL",
+          "slug": "base-url"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Config Reference",
@@ -420,134 +532,9 @@ export const siteData = {
           "title": "evergreen",
           "slug": "evergreen"
         }
-      ]
-    },
-    {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-13007057",
-      "path": "/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Why can’t palette.styl and index.styl merge into one API?",
-          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
-        },
-        {
-          "level": 2,
-          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
-          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use enhanceAppFiles?",
-          "slug": "when-do-i-need-to-use-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use clientDynamicModules?",
-          "slug": "when-do-i-need-to-use-clientdynamicmodules"
-        }
-      ]
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-2484b16a",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "How It Works",
-          "slug": "how-it-works"
-        },
-        {
-          "level": 2,
-          "title": "Features",
-          "slug": "features"
-        },
-        {
-          "level": 2,
-          "title": "Why Not ...?",
-          "slug": "why-not"
-        },
-        {
-          "level": 3,
-          "title": "Nuxt",
-          "slug": "nuxt"
-        },
-        {
-          "level": 3,
-          "title": "Docsify / Docute",
-          "slug": "docsify-docute"
-        },
-        {
-          "level": 3,
-          "title": "Hexo",
-          "slug": "hexo"
-        },
-        {
-          "level": 3,
-          "title": "GitBook",
-          "slug": "gitbook"
-        }
-      ]
-    },
-    {
-      "title": "Asset Handling",
-      "frontmatter": {},
-      "regularPath": "/guide/assets.html",
-      "relativePath": "guide/assets.md",
-      "key": "v-23983456",
-      "path": "/guide/assets.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Relative URLs",
-          "slug": "relative-urls"
-        },
-        {
-          "level": 2,
-          "title": "Public Files",
-          "slug": "public-files"
-        },
-        {
-          "level": 2,
-          "title": "Base URL",
-          "slug": "base-url"
-        }
-      ]
-    },
-    {
-      "title": "Configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/basic-config.html",
-      "relativePath": "guide/basic-config.md",
-      "key": "v-733bb7da",
-      "path": "/guide/basic-config.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Config File",
-          "slug": "config-file"
-        },
-        {
-          "level": 2,
-          "title": "Theme Configuration",
-          "slug": "theme-configuration"
-        },
-        {
-          "level": 2,
-          "title": "App Level Enhancements",
-          "slug": "app-level-enhancements"
-        }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Deploying",
@@ -607,7 +594,36 @@ export const siteData = {
           "title": "Layer0",
           "slug": "layer0"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/basic-config.html",
+      "relativePath": "guide/basic-config.md",
+      "key": "v-733bb7da",
+      "path": "/guide/basic-config.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Config File",
+          "slug": "config-file"
+        },
+        {
+          "level": 2,
+          "title": "Theme Configuration",
+          "slug": "theme-configuration"
+        },
+        {
+          "level": 2,
+          "title": "App Level Enhancements",
+          "slug": "app-level-enhancements"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Directory Structure",
@@ -622,7 +638,9 @@ export const siteData = {
           "title": "Default Page Routing",
           "slug": "default-page-routing"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Frontmatter",
@@ -717,7 +735,9 @@ export const siteData = {
           "title": "tags",
           "slug": "tags"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Getting Started",
@@ -742,7 +762,9 @@ export const siteData = {
           "title": "Manual Installation",
           "slug": "manual-installation"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Internationalization",
@@ -762,7 +784,9 @@ export const siteData = {
           "title": "Default Theme i18n Config",
           "slug": "default-theme-i18n-config"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Markdown Slot",
@@ -792,37 +816,9 @@ export const siteData = {
           "title": "Example",
           "slug": "example"
         }
-      ]
-    },
-    {
-      "title": "Permalinks",
-      "frontmatter": {},
-      "regularPath": "/guide/permalinks.html",
-      "relativePath": "guide/permalinks.md",
-      "key": "v-6d3df84c",
-      "path": "/guide/permalinks.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Permalinks",
-          "slug": "permalinks-2"
-        },
-        {
-          "level": 3,
-          "title": "Configure Permalinks",
-          "slug": "configure-permalinks"
-        },
-        {
-          "level": 3,
-          "title": "Template Variables",
-          "slug": "template-variables"
-        }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Markdown Extensions",
@@ -922,7 +918,9 @@ export const siteData = {
           "title": "Advanced Configuration",
           "slug": "advanced-configuration"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Global Computed",
@@ -972,7 +970,9 @@ export const siteData = {
           "title": "$themeConfig",
           "slug": "themeconfig"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "TypeScript as Config",
@@ -1017,7 +1017,41 @@ export const siteData = {
           "title": "Context API",
           "slug": "context-api"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Permalinks",
+      "frontmatter": {},
+      "regularPath": "/guide/permalinks.html",
+      "relativePath": "guide/permalinks.md",
+      "key": "v-6d3df84c",
+      "path": "/guide/permalinks.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Permalinks",
+          "slug": "permalinks-2"
+        },
+        {
+          "level": 3,
+          "title": "Configure Permalinks",
+          "slug": "configure-permalinks"
+        },
+        {
+          "level": 3,
+          "title": "Template Variables",
+          "slug": "template-variables"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Using Vue in Markdown",
@@ -1102,20 +1136,9 @@ export const siteData = {
           "title": "Badge",
           "slug": "badge"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/hero.png",
-        "actionText": "Get Started →",
-        "actionLink": "/guide/getting-started.html"
-      },
-      "regularPath": "/",
-      "relativePath": "index.md",
-      "key": "v-42ec5ee2",
-      "path": "/"
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Design Concepts of VuePress 1.x",
@@ -1182,7 +1205,24 @@ export const siteData = {
           "title": "Others",
           "slug": "others"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/hero.png",
+        "actionText": "Get Started →",
+        "actionLink": "/guide/getting-started.html"
+      },
+      "regularPath": "/",
+      "relativePath": "index.md",
+      "key": "v-42ec5ee2",
+      "path": "/",
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Glossary",
@@ -1249,7 +1289,9 @@ export const siteData = {
           "title": "parentThemeEntry",
           "slug": "parentthemeentry"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Migration from 0.x",
@@ -1296,7 +1338,9 @@ export const siteData = {
           "title": ".vuepress/style.styl",
           "slug": "vuepress-style-styl"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Plugin",
@@ -1331,7 +1375,9 @@ export const siteData = {
           "title": "Architecture",
           "slug": "architecture"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Local Development",
@@ -1378,7 +1424,9 @@ export const siteData = {
           "title": "Notes",
           "slug": "notes"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Context API",
@@ -1423,7 +1471,9 @@ export const siteData = {
           "title": "ctx.writeTemp",
           "slug": "ctx-writetemp"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Lifecycle",
@@ -1448,7 +1498,9 @@ export const siteData = {
           "title": "generated",
           "slug": "generated"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "active-header-links",
@@ -1491,30 +1543,9 @@ export const siteData = {
           "title": "headerAnchorSelector",
           "slug": "headeranchorselector"
         }
-      ]
-    },
-    {
-      "title": "back-to-top",
-      "frontmatter": {
-        "title": "back-to-top",
-        "metaTitle": "Back-To-Top Plugin | VuePress"
-      },
-      "regularPath": "/plugin/official/plugin-back-to-top.html",
-      "relativePath": "plugin/official/plugin-back-to-top.md",
-      "key": "v-7dc2c214",
-      "path": "/plugin/official/plugin-back-to-top.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Install",
-          "slug": "install"
-        },
-        {
-          "level": 2,
-          "title": "Usage",
-          "slug": "usage"
-        }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "google-analytics",
@@ -1547,7 +1578,34 @@ export const siteData = {
           "title": "ga",
           "slug": "ga"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "back-to-top",
+      "frontmatter": {
+        "title": "back-to-top",
+        "metaTitle": "Back-To-Top Plugin | VuePress"
+      },
+      "regularPath": "/plugin/official/plugin-back-to-top.html",
+      "relativePath": "plugin/official/plugin-back-to-top.md",
+      "key": "v-7dc2c214",
+      "path": "/plugin/official/plugin-back-to-top.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Install",
+          "slug": "install"
+        },
+        {
+          "level": 2,
+          "title": "Usage",
+          "slug": "usage"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "blog",
@@ -1575,7 +1633,9 @@ export const siteData = {
           "title": "Usage",
           "slug": "usage"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "last-updated",
@@ -1608,45 +1668,9 @@ export const siteData = {
           "title": "dateOptions",
           "slug": "dateoptions"
         }
-      ]
-    },
-    {
-      "title": "medium-zoom",
-      "frontmatter": {
-        "title": "medium-zoom",
-        "metaTitle": "Medium-Zoom Plugin | VuePress"
-      },
-      "regularPath": "/plugin/official/plugin-medium-zoom.html",
-      "relativePath": "plugin/official/plugin-medium-zoom.md",
-      "key": "v-7d5005e0",
-      "path": "/plugin/official/plugin-medium-zoom.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Install",
-          "slug": "install"
-        },
-        {
-          "level": 2,
-          "title": "Usage",
-          "slug": "usage"
-        },
-        {
-          "level": 2,
-          "title": "Options",
-          "slug": "options"
-        },
-        {
-          "level": 3,
-          "title": "selector",
-          "slug": "selector"
-        },
-        {
-          "level": 3,
-          "title": "options",
-          "slug": "options-2"
-        }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "nprogress",
@@ -1674,7 +1698,54 @@ export const siteData = {
           "title": "Custom color",
           "slug": "custom-color"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "register-components",
+      "frontmatter": {
+        "title": "register-components",
+        "metaTitle": "Register Components Plugin | VuePress"
+      },
+      "regularPath": "/plugin/official/plugin-register-components.html",
+      "relativePath": "plugin/official/plugin-register-components.md",
+      "key": "v-a282eb34",
+      "path": "/plugin/official/plugin-register-components.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Install",
+          "slug": "install"
+        },
+        {
+          "level": 2,
+          "title": "Usage",
+          "slug": "usage"
+        },
+        {
+          "level": 2,
+          "title": "Options",
+          "slug": "options"
+        },
+        {
+          "level": 3,
+          "title": "componentsDir",
+          "slug": "componentsdir"
+        },
+        {
+          "level": 3,
+          "title": "components",
+          "slug": "components"
+        },
+        {
+          "level": 3,
+          "title": "getComponentName",
+          "slug": "getcomponentname"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "pwa",
@@ -1742,18 +1813,20 @@ export const siteData = {
           "title": "Customize the UI of SW-Update Popup",
           "slug": "customize-the-ui-of-sw-update-popup"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
-      "title": "register-components",
+      "title": "medium-zoom",
       "frontmatter": {
-        "title": "register-components",
-        "metaTitle": "Register Components Plugin | VuePress"
+        "title": "medium-zoom",
+        "metaTitle": "Medium-Zoom Plugin | VuePress"
       },
-      "regularPath": "/plugin/official/plugin-register-components.html",
-      "relativePath": "plugin/official/plugin-register-components.md",
-      "key": "v-a282eb34",
-      "path": "/plugin/official/plugin-register-components.html",
+      "regularPath": "/plugin/official/plugin-medium-zoom.html",
+      "relativePath": "plugin/official/plugin-medium-zoom.md",
+      "key": "v-7d5005e0",
+      "path": "/plugin/official/plugin-medium-zoom.html",
       "headers": [
         {
           "level": 2,
@@ -1772,73 +1845,17 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "componentsDir",
-          "slug": "componentsdir"
+          "title": "selector",
+          "slug": "selector"
         },
         {
           "level": 3,
-          "title": "components",
-          "slug": "components"
-        },
-        {
-          "level": 3,
-          "title": "getComponentName",
-          "slug": "getcomponentname"
+          "title": "options",
+          "slug": "options-2"
         }
-      ]
-    },
-    {
-      "title": "search",
-      "frontmatter": {
-        "title": "search",
-        "metaTitle": "Search Plugin | VuePress"
-      },
-      "regularPath": "/plugin/official/plugin-search.html",
-      "relativePath": "plugin/official/plugin-search.md",
-      "key": "v-49aa7216",
-      "path": "/plugin/official/plugin-search.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Install",
-          "slug": "install"
-        },
-        {
-          "level": 2,
-          "title": "Usage",
-          "slug": "usage"
-        },
-        {
-          "level": 2,
-          "title": "Options",
-          "slug": "options"
-        },
-        {
-          "level": 3,
-          "title": "searchMaxSuggestions",
-          "slug": "searchmaxsuggestions"
-        },
-        {
-          "level": 3,
-          "title": "test",
-          "slug": "test"
-        },
-        {
-          "level": 3,
-          "title": "searchHotkeys",
-          "slug": "searchhotkeys"
-        },
-        {
-          "level": 2,
-          "title": "Tips",
-          "slug": "tips"
-        },
-        {
-          "level": 3,
-          "title": "Tweak the default colors.",
-          "slug": "tweak-the-default-colors"
-        }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Option API",
@@ -1928,7 +1945,64 @@ export const siteData = {
           "title": "extendCli",
           "slug": "extendcli"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "search",
+      "frontmatter": {
+        "title": "search",
+        "metaTitle": "Search Plugin | VuePress"
+      },
+      "regularPath": "/plugin/official/plugin-search.html",
+      "relativePath": "plugin/official/plugin-search.md",
+      "key": "v-49aa7216",
+      "path": "/plugin/official/plugin-search.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Install",
+          "slug": "install"
+        },
+        {
+          "level": 2,
+          "title": "Usage",
+          "slug": "usage"
+        },
+        {
+          "level": 2,
+          "title": "Options",
+          "slug": "options"
+        },
+        {
+          "level": 3,
+          "title": "searchMaxSuggestions",
+          "slug": "searchmaxsuggestions"
+        },
+        {
+          "level": 3,
+          "title": "test",
+          "slug": "test"
+        },
+        {
+          "level": 3,
+          "title": "searchHotkeys",
+          "slug": "searchhotkeys"
+        },
+        {
+          "level": 2,
+          "title": "Tips",
+          "slug": "tips"
+        },
+        {
+          "level": 3,
+          "title": "Tweak the default colors.",
+          "slug": "tweak-the-default-colors"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Using a Plugin",
@@ -1963,7 +2037,9 @@ export const siteData = {
           "title": "Object Style",
           "slug": "object-style"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Writing a Plugin",
@@ -1971,15 +2047,9 @@ export const siteData = {
       "regularPath": "/plugin/writing-a-plugin.html",
       "relativePath": "plugin/writing-a-plugin.md",
       "key": "v-1413ecd6",
-      "path": "/plugin/writing-a-plugin.html"
-    },
-    {
-      "title": "Theme",
-      "frontmatter": {},
-      "regularPath": "/theme/",
-      "relativePath": "theme/README.md",
-      "key": "v-5ea0421e",
-      "path": "/theme/"
+      "path": "/plugin/writing-a-plugin.html",
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Blog theme",
@@ -2004,7 +2074,19 @@ export const siteData = {
           "title": "Usage",
           "slug": "usage"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Theme",
+      "frontmatter": {},
+      "regularPath": "/theme/",
+      "relativePath": "theme/README.md",
+      "key": "v-5ea0421e",
+      "path": "/theme/",
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Default Theme Config",
@@ -2149,7 +2231,9 @@ export const siteData = {
           "title": "Ejecting",
           "slug": "ejecting"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Theme Configuration",
@@ -2186,7 +2270,56 @@ export const siteData = {
           "title": "globalLayout",
           "slug": "globallayout"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "Theme Inheritance",
+      "frontmatter": {},
+      "regularPath": "/theme/inheritance.html",
+      "relativePath": "theme/inheritance.md",
+      "key": "v-f3e5b254",
+      "path": "/theme/inheritance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Motivation",
+          "slug": "motivation"
+        },
+        {
+          "level": 2,
+          "title": "Concepts",
+          "slug": "concepts"
+        },
+        {
+          "level": 2,
+          "title": "Usage",
+          "slug": "usage"
+        },
+        {
+          "level": 2,
+          "title": "Inheritance Strategy",
+          "slug": "inheritance-strategy"
+        },
+        {
+          "level": 2,
+          "title": "Override Plugins",
+          "slug": "override-plugins"
+        },
+        {
+          "level": 2,
+          "title": "Override Components",
+          "slug": "override-components"
+        },
+        {
+          "level": 2,
+          "title": "Access Parent Theme",
+          "slug": "access-parent-theme"
+        }
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Using a theme",
@@ -2206,7 +2339,9 @@ export const siteData = {
           "title": "Theme Shorthand",
           "slug": "theme-shorthand"
         }
-      ]
+      ],
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Writing a theme",
@@ -2252,52 +2387,9 @@ export const siteData = {
           "slug": "app-level-enhancements"
         }
       ],
-      "excerpt": "<h1 id=\"writing-a-theme\"><a class=\"header-anchor\" href=\"#writing-a-theme\">#</a> Writing a theme</h1>\n<p>To write a theme, create a <code>.vuepress/theme</code> directory in your docs root, and then create a <code>Layout.vue</code> file:</p>\n<pre class=\"vue-container\"><code><p>.\n└─ .vuepress\n └─ <code>theme</code>\n     └─ Layout.vue</p>\n</code></pre><p>From there it’s the same as developing a normal Vue application. It’s entirely up to you how to organize your theme.</p>\n<h2 id=\"content-outlet\"><a class=\"header-anchor\" href=\"#content-outlet\">#</a> Content Outlet</h2>\n<p>The compiled content of the current <code>.md</code> file being rendered will be available as a special <code>&lt;Content/&gt;</code> global component. You will need to render it somewhere in your layout to display the content of the page. The simplest theme can be a single <code>Layout.vue</code> component with the following content:</p>\n<!--beforebegin--><div class=\"language-html extra-class\"><!--afterbegin--><pre v-pre class=\"language-html\"><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>theme-container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>Content</span><span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><strong>Also see:</strong></p>\n<ul>\n<li><RouterLink to=\"/guide/markdown-slot.html\">Markdown Slot</RouterLink></li>\n</ul>\n<h2 id=\"directory-structure\"><a class=\"header-anchor\" href=\"#directory-structure\">#</a> Directory Structure</h2>\n<p>One <code>Layout.vue</code> might not be enough, and you might also want to define more layout components in the theme for using on different pages. You may also want to customize the <RouterLink to=\"/config/#palette-styl\">palette</RouterLink>, and even apply some plugins.</p>\n<p>So it’s time to reorganize your theme, an agreed theme directory structure is as follows:</p>\n<pre class=\"vue-container\"><code><p>theme\n├── <code>global-components</code>\n│   └── xxx.vue\n├── <code>components</code>\n│   └── xxx.vue\n├── <code>layouts</code>\n│   ├── Layout.vue <em>(<strong>Mandatory</strong>)</em>\n│   └── 404.vue\n├── <code>styles</code>\n│   ├── index.styl\n│   └── palette.styl\n├── <code>templates</code>\n│   ├── dev.html\n│   └── ssr.html\n├── <code>index.js</code>\n├── <code>enhanceApp.js</code>\n└── package.json</p>\n</code></pre><ul>\n<li><code>theme/global-components</code>: Components under this directory will be automatically registered as global components. For details, please check out <a href=\"https://github.com/vuejs/vuepress/tree/master/packages/@vuepress/plugin-register-components\" target=\"_blank\" rel=\"noopener noreferrer\">@vuepress/plugin-register-components<OutboundLink/></a>.</li>\n<li><code>theme/components</code>: Your components.</li>\n<li><code>theme/layouts</code>: Layout components of the theme, where <code>Layout.vue</code> is required.</li>\n<li><code>theme/styles</code>: Global style and palette.</li>\n<li><code>theme/templates</code>: Edit default template.</li>\n<li><code>theme/index.js</code>: Entry file of theme configuration.</li>\n<li><code>theme/enhanceApp.js</code>: Theme level enhancements.</li>\n</ul>\n<div class=\"custom-block warning\"><p class=\"custom-block-title\">Note</p>\n<p>When you publish your theme as an npm package, if you don’t have any theme configuration, that means you don’t have <code>theme/index.js</code>, you’ll need to set the <code>&quot;main&quot;</code> field  to <code>layouts/Layout.vue</code> in <code>package.json</code>, only in this way VuePress can properly resolve the theme.</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  ...\n  <span class=\"token property\">\"main\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"layouts/Layout.vue\"</span><span class=\"token punctuation\">,</span>\n  ...\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--></div>\n<h2 id=\"layout-component\"><a class=\"header-anchor\" href=\"#layout-component\">#</a> Layout Component</h2>\n<p>Suppose your theme layouts folder is as follows:</p>\n<pre class=\"vue-container\"><code><p>theme\n└── <code>layouts</code>\n   ├── Layout.vue\n   ├── AnotherLayout.vue\n   └── 404.vue</p>\n</code></pre><p>Then, all the pages will use <code>Layout.vue</code> as layout component by default, while the routes not matching will use <code>404.vue</code>.</p>\n<p>To switch the layout of some pages to <code>AnotherLayout.vue</code>, all you have to do is update the frontmatter of this page:</p>\n<!--beforebegin--><div class=\"language-markdown extra-class\"><!--afterbegin--><pre v-pre class=\"language-markdown\"><code><span class=\"token front-matter-block\"><span class=\"token punctuation\">---</span>\n<span class=\"token front-matter yaml language-yaml\">layout: AnotherLayout</span>\n<span class=\"token punctuation\">---</span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><div class=\"custom-block tip\"><p class=\"custom-block-title\">TIP</p>\n<p>Each layout component may render distinct pages. To apply some global UI (for example global header), consider using <RouterLink to=\"/theme/option-api.html#globallayout\">globalLayout</RouterLink>。</p>\n</div>\n<h2 id=\"apply-plugins\"><a class=\"header-anchor\" href=\"#apply-plugins\">#</a> Apply plugins</h2>\n<p>You can apply some plugins to the theme via <code>theme/index.js</code>.</p>\n<!--beforebegin--><div class=\"language-js extra-class\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// .vuepress/theme/index.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token literal-property property\">plugins</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">[</span><span class=\"token string\">'@vuepress/pwa'</span><span class=\"token punctuation\">,</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token literal-property property\">serviceWorker</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n      <span class=\"token literal-property property\">updatePopup</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><h2 id=\"site-and-page-metadata\"><a class=\"header-anchor\" href=\"#site-and-page-metadata\">#</a> Site and Page Metadata</h2>\n<p>The <code>Layout</code> component will be invoked once for every <code>.md</code> file in <code>docs</code>, and the metadata for the entire site and that specific page will be exposed respectively as <code>this.$site</code> and <code>this.$page</code> properties which are injected into every component in the app.</p>\n<p>This is the value of <code>$site</code> of this website:</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"VuePress\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"description\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Vue-powered Static Site Generator\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"base\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"pages\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"lastUpdated\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1524027677000</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"path\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"VuePress\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"frontmatter\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span><span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    ...\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><code>title</code>, <code>description</code> and <code>base</code> are copied from respective fields in <code>.vuepress/config.js</code>. <code>pages</code> contains an array of metadata objects for each page, including its path, page title (explicitly specified in <RouterLink to=\"/guide/markdown.html#front-matter\">YAML frontmatter</RouterLink> or inferred from the first header on the page), and any YAML frontmatter data in that file.</p>\n<p>This is the <code>$page</code> object for this page you are looking at:</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"lastUpdated\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1524847549000</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"path\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/guide/custom-themes.html\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Custom Themes\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"headers\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token comment\">/* ... */</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"frontmatter\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span><span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p>If the user provided <code>themeConfig</code> in <code>.vuepress/config.js</code>, it will also be available as <code>$site.themeConfig</code>. You can use this to allow users to customize behavior of your theme - for example, specifying categories and page order. You can then use these data together with <code>$site.pages</code> to dynamically construct navigation links.</p>\n<p>Don’t forget that <code>this.$route</code> and <code>this.$router</code> are also available as part of Vue Router’s API.</p>\n<div class=\"custom-block tip\"><p class=\"custom-block-title\">TIP</p>\n<p><code>lastUpdated</code> is the UNIX timestamp of this file’s last git commit, for more details, check out <RouterLink to=\"/theme/default-theme-config.html#last-updated\">Last Updated</RouterLink>.</p>\n</div>\n<h2 id=\"content-excerpt\"><a class=\"header-anchor\" href=\"#content-excerpt\">#</a> Content Excerpt</h2>\n<p>If a Markdown file contains a `</p>\n"
-    },
-    {
-      "title": "Theme Inheritance",
-      "frontmatter": {},
-      "regularPath": "/theme/inheritance.html",
-      "relativePath": "theme/inheritance.md",
-      "key": "v-f3e5b254",
-      "path": "/theme/inheritance.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Motivation",
-          "slug": "motivation"
-        },
-        {
-          "level": 2,
-          "title": "Concepts",
-          "slug": "concepts"
-        },
-        {
-          "level": 2,
-          "title": "Usage",
-          "slug": "usage"
-        },
-        {
-          "level": 2,
-          "title": "Inheritance Strategy",
-          "slug": "inheritance-strategy"
-        },
-        {
-          "level": 2,
-          "title": "Override Plugins",
-          "slug": "override-plugins"
-        },
-        {
-          "level": 2,
-          "title": "Override Components",
-          "slug": "override-components"
-        },
-        {
-          "level": 2,
-          "title": "Access Parent Theme",
-          "slug": "access-parent-theme"
-        }
-      ]
+      "excerpt": "<h1 id=\"writing-a-theme\"><a class=\"header-anchor\" href=\"#writing-a-theme\">#</a> Writing a theme</h1>\n<p>To write a theme, create a <code>.vuepress/theme</code> directory in your docs root, and then create a <code>Layout.vue</code> file:</p>\n<pre class=\"vue-container\"><code><p>.\n└─ .vuepress\n └─ <code>theme</code>\n     └─ Layout.vue</p>\n</code></pre><p>From there it’s the same as developing a normal Vue application. It’s entirely up to you how to organize your theme.</p>\n<h2 id=\"content-outlet\"><a class=\"header-anchor\" href=\"#content-outlet\">#</a> Content Outlet</h2>\n<p>The compiled content of the current <code>.md</code> file being rendered will be available as a special <code>&lt;Content/&gt;</code> global component. You will need to render it somewhere in your layout to display the content of the page. The simplest theme can be a single <code>Layout.vue</code> component with the following content:</p>\n<!--beforebegin--><div class=\"language-html extra-class\"><!--afterbegin--><pre v-pre class=\"language-html\"><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>theme-container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>Content</span><span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><strong>Also see:</strong></p>\n<ul>\n<li><RouterLink to=\"/guide/markdown-slot.html\">Markdown Slot</RouterLink></li>\n</ul>\n<h2 id=\"directory-structure\"><a class=\"header-anchor\" href=\"#directory-structure\">#</a> Directory Structure</h2>\n<p>One <code>Layout.vue</code> might not be enough, and you might also want to define more layout components in the theme for using on different pages. You may also want to customize the <RouterLink to=\"/config/#palette-styl\">palette</RouterLink>, and even apply some plugins.</p>\n<p>So it’s time to reorganize your theme, an agreed theme directory structure is as follows:</p>\n<pre class=\"vue-container\"><code><p>theme\n├── <code>global-components</code>\n│   └── xxx.vue\n├── <code>components</code>\n│   └── xxx.vue\n├── <code>layouts</code>\n│   ├── Layout.vue <em>(<strong>Mandatory</strong>)</em>\n│   └── 404.vue\n├── <code>styles</code>\n│   ├── index.styl\n│   └── palette.styl\n├── <code>templates</code>\n│   ├── dev.html\n│   └── ssr.html\n├── <code>index.js</code>\n├── <code>enhanceApp.js</code>\n└── package.json</p>\n</code></pre><ul>\n<li><code>theme/global-components</code>: Components under this directory will be automatically registered as global components. For details, please check out <a href=\"https://github.com/vuejs/vuepress/tree/master/packages/@vuepress/plugin-register-components\" target=\"_blank\" rel=\"noopener noreferrer\">@vuepress/plugin-register-components<OutboundLink/></a>.</li>\n<li><code>theme/components</code>: Your components.</li>\n<li><code>theme/layouts</code>: Layout components of the theme, where <code>Layout.vue</code> is required.</li>\n<li><code>theme/styles</code>: Global style and palette.</li>\n<li><code>theme/templates</code>: Edit default template.</li>\n<li><code>theme/index.js</code>: Entry file of theme configuration.</li>\n<li><code>theme/enhanceApp.js</code>: Theme level enhancements.</li>\n</ul>\n<div class=\"custom-block warning\"><p class=\"custom-block-title\">Note</p>\n<p>When you publish your theme as an npm package, if you don’t have any theme configuration, that means you don’t have <code>theme/index.js</code>, you’ll need to set the <code>&quot;main&quot;</code> field  to <code>layouts/Layout.vue</code> in <code>package.json</code>, only in this way VuePress can properly resolve the theme.</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  ...\n  <span class=\"token property\">\"main\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"layouts/Layout.vue\"</span><span class=\"token punctuation\">,</span>\n  ...\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--></div>\n<h2 id=\"layout-component\"><a class=\"header-anchor\" href=\"#layout-component\">#</a> Layout Component</h2>\n<p>Suppose your theme layouts folder is as follows:</p>\n<pre class=\"vue-container\"><code><p>theme\n└── <code>layouts</code>\n   ├── Layout.vue\n   ├── AnotherLayout.vue\n   └── 404.vue</p>\n</code></pre><p>Then, all the pages will use <code>Layout.vue</code> as layout component by default, while the routes not matching will use <code>404.vue</code>.</p>\n<p>To switch the layout of some pages to <code>AnotherLayout.vue</code>, all you have to do is update the frontmatter of this page:</p>\n<!--beforebegin--><div class=\"language-markdown extra-class\"><!--afterbegin--><pre v-pre class=\"language-markdown\"><code><span class=\"token front-matter-block\"><span class=\"token punctuation\">---</span>\n<span class=\"token front-matter yaml language-yaml\">layout: AnotherLayout</span>\n<span class=\"token punctuation\">---</span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><div class=\"custom-block tip\"><p class=\"custom-block-title\">TIP</p>\n<p>Each layout component may render distinct pages. To apply some global UI (for example global header), consider using <RouterLink to=\"/theme/option-api.html#globallayout\">globalLayout</RouterLink>。</p>\n</div>\n<h2 id=\"apply-plugins\"><a class=\"header-anchor\" href=\"#apply-plugins\">#</a> Apply plugins</h2>\n<p>You can apply some plugins to the theme via <code>theme/index.js</code>.</p>\n<!--beforebegin--><div class=\"language-js extra-class\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// .vuepress/theme/index.js</span>\nmodule<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token literal-property property\">plugins</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">[</span><span class=\"token string\">'@vuepress/pwa'</span><span class=\"token punctuation\">,</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token literal-property property\">serviceWorker</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n      <span class=\"token literal-property property\">updatePopup</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">]</span>\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><h2 id=\"site-and-page-metadata\"><a class=\"header-anchor\" href=\"#site-and-page-metadata\">#</a> Site and Page Metadata</h2>\n<p>The <code>Layout</code> component will be invoked once for every <code>.md</code> file in <code>docs</code>, and the metadata for the entire site and that specific page will be exposed respectively as <code>this.$site</code> and <code>this.$page</code> properties which are injected into every component in the app.</p>\n<p>This is the value of <code>$site</code> of this website:</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"VuePress\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"description\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Vue-powered Static Site Generator\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"base\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"pages\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span>\n    <span class=\"token punctuation\">{</span>\n      <span class=\"token property\">\"lastUpdated\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1524027677000</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"path\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"VuePress\"</span><span class=\"token punctuation\">,</span>\n      <span class=\"token property\">\"frontmatter\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span><span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n    ...\n  <span class=\"token punctuation\">]</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><code>title</code>, <code>description</code> and <code>base</code> are copied from respective fields in <code>.vuepress/config.js</code>. <code>pages</code> contains an array of metadata objects for each page, including its path, page title (explicitly specified in <RouterLink to=\"/guide/markdown.html#front-matter\">YAML frontmatter</RouterLink> or inferred from the first header on the page), and any YAML frontmatter data in that file.</p>\n<p>This is the <code>$page</code> object for this page you are looking at:</p>\n<!--beforebegin--><div class=\"language-json extra-class\"><!--afterbegin--><pre v-pre class=\"language-json\"><code><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"lastUpdated\"</span><span class=\"token operator\">:</span> <span class=\"token number\">1524847549000</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"path\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"/guide/custom-themes.html\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"title\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"Custom Themes\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"headers\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">[</span><span class=\"token comment\">/* ... */</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"frontmatter\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span><span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p>If the user provided <code>themeConfig</code> in <code>.vuepress/config.js</code>, it will also be available as <code>$site.themeConfig</code>. You can use this to allow users to customize behavior of your theme - for example, specifying categories and page order. You can then use these data together with <code>$site.pages</code> to dynamically construct navigation links.</p>\n<p>Don’t forget that <code>this.$route</code> and <code>this.$router</code> are also available as part of Vue Router’s API.</p>\n<div class=\"custom-block tip\"><p class=\"custom-block-title\">TIP</p>\n<p><code>lastUpdated</code> is the UNIX timestamp of this file’s last git commit, for more details, check out <RouterLink to=\"/theme/default-theme-config.html#last-updated\">Last Updated</RouterLink>.</p>\n</div>\n<h2 id=\"content-excerpt\"><a class=\"header-anchor\" href=\"#content-excerpt\">#</a> Content Excerpt</h2>\n<p>If a Markdown file contains a `</p>\n",
+      "lastUpdated": "8/31/2022, 5:29:28 PM",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "命令行接口",
@@ -2387,7 +2479,9 @@ export const siteData = {
           "title": "更多指令",
           "slug": "更多指令"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Home",
@@ -2422,7 +2516,9 @@ export const siteData = {
           "title": "像数 1, 2, 3 一样容易",
           "slug": "像数-1-2-3-一样容易"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Node.js API",
@@ -2497,7 +2593,90 @@ export const siteData = {
           "title": "siteConfig",
           "slug": "siteconfig"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/",
+      "relativePath": "zh/guide/README.md",
+      "key": "v-5764a835",
+      "path": "/zh/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "它是如何工作的？",
+          "slug": "它是如何工作的"
+        },
+        {
+          "level": 2,
+          "title": "Features",
+          "slug": "features"
+        },
+        {
+          "level": 2,
+          "title": "为什么不是...?",
+          "slug": "为什么不是"
+        },
+        {
+          "level": 3,
+          "title": "Nuxt",
+          "slug": "nuxt"
+        },
+        {
+          "level": 3,
+          "title": "Docsify / Docute",
+          "slug": "docsify-docute"
+        },
+        {
+          "level": 3,
+          "title": "Hexo",
+          "slug": "hexo"
+        },
+        {
+          "level": 3,
+          "title": "GitBook",
+          "slug": "gitbook"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-3f91b475",
+      "path": "/zh/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "为什么不能把 palette.styl 和 index.styl 合并到一个 API?",
+          "slug": "为什么不能把-palette-styl-和-index-styl-合并到一个-api"
+        },
+        {
+          "level": 2,
+          "title": "clientDynamicModules 和 enhanceAppFiles 的区别是什么?",
+          "slug": "clientdynamicmodules-和-enhanceappfiles-的区别是什么"
+        },
+        {
+          "level": 2,
+          "title": "什么时候需要使用 enhanceAppFiles?",
+          "slug": "什么时候需要使用-enhanceappfiles"
+        },
+        {
+          "level": 2,
+          "title": "什么时候需要使用 clientDynamicModules?",
+          "slug": "什么时候需要使用-clientdynamicmodules"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "配置",
@@ -2720,84 +2899,9 @@ export const siteData = {
           "title": "evergreen",
           "slug": "evergreen"
         }
-      ]
-    },
-    {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-3f91b475",
-      "path": "/zh/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "为什么不能把 palette.styl 和 index.styl 合并到一个 API?",
-          "slug": "为什么不能把-palette-styl-和-index-styl-合并到一个-api"
-        },
-        {
-          "level": 2,
-          "title": "clientDynamicModules 和 enhanceAppFiles 的区别是什么?",
-          "slug": "clientdynamicmodules-和-enhanceappfiles-的区别是什么"
-        },
-        {
-          "level": 2,
-          "title": "什么时候需要使用 enhanceAppFiles?",
-          "slug": "什么时候需要使用-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "什么时候需要使用 clientDynamicModules?",
-          "slug": "什么时候需要使用-clientdynamicmodules"
-        }
-      ]
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/",
-      "relativePath": "zh/guide/README.md",
-      "key": "v-5764a835",
-      "path": "/zh/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "它是如何工作的？",
-          "slug": "它是如何工作的"
-        },
-        {
-          "level": 2,
-          "title": "Features",
-          "slug": "features"
-        },
-        {
-          "level": 2,
-          "title": "为什么不是...?",
-          "slug": "为什么不是"
-        },
-        {
-          "level": 3,
-          "title": "Nuxt",
-          "slug": "nuxt"
-        },
-        {
-          "level": 3,
-          "title": "Docsify / Docute",
-          "slug": "docsify-docute"
-        },
-        {
-          "level": 3,
-          "title": "Hexo",
-          "slug": "hexo"
-        },
-        {
-          "level": 3,
-          "title": "GitBook",
-          "slug": "gitbook"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "静态资源",
@@ -2822,7 +2926,9 @@ export const siteData = {
           "title": "基础路径",
           "slug": "基础路径"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "基本配置",
@@ -2847,7 +2953,26 @@ export const siteData = {
           "title": "应用级别的配置",
           "slug": "应用级别的配置"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "目录结构",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/directory-structure.html",
+      "relativePath": "zh/guide/directory-structure.md",
+      "key": "v-4d5c2dc4",
+      "path": "/zh/guide/directory-structure.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "默认的页面路由",
+          "slug": "默认的页面路由"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "部署",
@@ -2912,22 +3037,9 @@ export const siteData = {
           "title": "21 云盒子",
           "slug": "_21-云盒子"
         }
-      ]
-    },
-    {
-      "title": "目录结构",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/directory-structure.html",
-      "relativePath": "zh/guide/directory-structure.md",
-      "key": "v-4d5c2dc4",
-      "path": "/zh/guide/directory-structure.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "默认的页面路由",
-          "slug": "默认的页面路由"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Front Matter",
@@ -3017,15 +3129,9 @@ export const siteData = {
           "title": "tags",
           "slug": "tags"
         }
-      ]
-    },
-    {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/getting-started.html",
-      "relativePath": "zh/guide/getting-started.md",
-      "key": "v-16f7363a",
-      "path": "/zh/guide/getting-started.html"
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "全局计算属性",
@@ -3075,7 +3181,19 @@ export const siteData = {
           "title": "$themeConfig",
           "slug": "themeconfig"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/getting-started.html",
+      "relativePath": "zh/guide/getting-started.md",
+      "key": "v-16f7363a",
+      "path": "/zh/guide/getting-started.html",
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "多语言支持",
@@ -3095,7 +3213,9 @@ export const siteData = {
           "title": "默认主题多语言配置",
           "slug": "默认主题多语言配置"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Markdown 插槽",
@@ -3125,7 +3245,9 @@ export const siteData = {
           "title": "例子",
           "slug": "例子"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Markdown 拓展",
@@ -3215,37 +3337,9 @@ export const siteData = {
           "title": "进阶配置",
           "slug": "进阶配置"
         }
-      ]
-    },
-    {
-      "title": "永久链接",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/permalinks.html",
-      "relativePath": "zh/guide/permalinks.md",
-      "key": "v-d31bb654",
-      "path": "/zh/guide/permalinks.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "背景",
-          "slug": "背景"
-        },
-        {
-          "level": 2,
-          "title": "永久链接",
-          "slug": "永久链接-2"
-        },
-        {
-          "level": 3,
-          "title": "配置永久链接",
-          "slug": "配置永久链接"
-        },
-        {
-          "level": 3,
-          "title": "模板变量",
-          "slug": "模板变量"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "TypeScript as Config",
@@ -3290,7 +3384,41 @@ export const siteData = {
           "title": "Context API",
           "slug": "context-api"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "永久链接",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/permalinks.html",
+      "relativePath": "zh/guide/permalinks.md",
+      "key": "v-d31bb654",
+      "path": "/zh/guide/permalinks.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "背景",
+          "slug": "背景"
+        },
+        {
+          "level": 2,
+          "title": "永久链接",
+          "slug": "永久链接-2"
+        },
+        {
+          "level": 3,
+          "title": "配置永久链接",
+          "slug": "配置永久链接"
+        },
+        {
+          "level": 3,
+          "title": "模板变量",
+          "slug": "模板变量"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "在 Markdown 中使用 Vue",
@@ -3375,74 +3503,9 @@ export const siteData = {
           "title": "Badge",
           "slug": "badge"
         }
-      ]
-    },
-    {
-      "title": "VuePress 1.x 的设计理念",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/zh/miscellaneous/design-concepts.html",
-      "relativePath": "zh/miscellaneous/design-concepts.md",
-      "key": "v-6f29f6d2",
-      "path": "/zh/miscellaneous/design-concepts.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "插件化",
-          "slug": "插件化"
-        },
-        {
-          "level": 3,
-          "title": "解耦",
-          "slug": "解耦"
-        },
-        {
-          "level": 3,
-          "title": "配置的管理",
-          "slug": "配置的管理"
-        },
-        {
-          "level": 3,
-          "title": ".vuepress/config.js 也是插件",
-          "slug": "vuepress-config-js-也是插件"
-        },
-        {
-          "level": 3,
-          "title": "theme/index.js 也是插件",
-          "slug": "theme-index-js-也是插件"
-        },
-        {
-          "level": 3,
-          "title": "在插件中使用插件",
-          "slug": "在插件中使用插件"
-        },
-        {
-          "level": 2,
-          "title": "约定大于配置",
-          "slug": "约定大于配置"
-        },
-        {
-          "level": 2,
-          "title": "合理的优先级管理",
-          "slug": "合理的优先级管理"
-        },
-        {
-          "level": 3,
-          "title": "加载优先级",
-          "slug": "加载优先级"
-        },
-        {
-          "level": 3,
-          "title": "Overriding",
-          "slug": "overriding"
-        },
-        {
-          "level": 2,
-          "title": "其他",
-          "slug": "其他"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "术语",
@@ -3514,7 +3577,78 @@ export const siteData = {
           "title": "parentThemeEntry",
           "slug": "parentthemeentry"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "VuePress 1.x 的设计理念",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/zh/miscellaneous/design-concepts.html",
+      "relativePath": "zh/miscellaneous/design-concepts.md",
+      "key": "v-6f29f6d2",
+      "path": "/zh/miscellaneous/design-concepts.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "插件化",
+          "slug": "插件化"
+        },
+        {
+          "level": 3,
+          "title": "解耦",
+          "slug": "解耦"
+        },
+        {
+          "level": 3,
+          "title": "配置的管理",
+          "slug": "配置的管理"
+        },
+        {
+          "level": 3,
+          "title": ".vuepress/config.js 也是插件",
+          "slug": "vuepress-config-js-也是插件"
+        },
+        {
+          "level": 3,
+          "title": "theme/index.js 也是插件",
+          "slug": "theme-index-js-也是插件"
+        },
+        {
+          "level": 3,
+          "title": "在插件中使用插件",
+          "slug": "在插件中使用插件"
+        },
+        {
+          "level": 2,
+          "title": "约定大于配置",
+          "slug": "约定大于配置"
+        },
+        {
+          "level": 2,
+          "title": "合理的优先级管理",
+          "slug": "合理的优先级管理"
+        },
+        {
+          "level": 3,
+          "title": "加载优先级",
+          "slug": "加载优先级"
+        },
+        {
+          "level": 3,
+          "title": "Overriding",
+          "slug": "overriding"
+        },
+        {
+          "level": 2,
+          "title": "其他",
+          "slug": "其他"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "本地开发",
@@ -3556,7 +3690,9 @@ export const siteData = {
           "title": "更多相关",
           "slug": "更多相关"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "从 VuePress 0.x 迁移",
@@ -3603,7 +3739,9 @@ export const siteData = {
           "title": ".vuepress/style.styl",
           "slug": "vuepress-style-styl"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "插件",
@@ -3638,7 +3776,9 @@ export const siteData = {
           "title": "架构",
           "slug": "架构"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Context API",
@@ -3683,7 +3823,9 @@ export const siteData = {
           "title": "ctx.writeTemp",
           "slug": "ctx-writetemp"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "生命周期",
@@ -3708,7 +3850,99 @@ export const siteData = {
           "title": "generated",
           "slug": "generated"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "blog",
+      "frontmatter": {
+        "title": "blog",
+        "metaTitle": "博客插件 | VuePress"
+      },
+      "regularPath": "/zh/plugin/official/plugin-blog.html",
+      "relativePath": "zh/plugin/official/plugin-blog.md",
+      "key": "v-3bc59ec8",
+      "path": "/zh/plugin/official/plugin-blog.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "功能",
+          "slug": "功能"
+        },
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "back-to-top",
+      "frontmatter": {
+        "title": "back-to-top",
+        "metaTitle": "Back-To-Top 插件 | VuePress"
+      },
+      "regularPath": "/zh/plugin/official/plugin-back-to-top.html",
+      "relativePath": "zh/plugin/official/plugin-back-to-top.md",
+      "key": "v-1b3bb656",
+      "path": "/zh/plugin/official/plugin-back-to-top.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "google-analytics",
+      "frontmatter": {
+        "title": "google-analytics",
+        "metaTitle": "Google Analytics 插件 | VuePress"
+      },
+      "regularPath": "/zh/plugin/official/plugin-google-analytics.html",
+      "relativePath": "zh/plugin/official/plugin-google-analytics.md",
+      "key": "v-df30c908",
+      "path": "/zh/plugin/official/plugin-google-analytics.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "选项",
+          "slug": "选项"
+        },
+        {
+          "level": 3,
+          "title": "ga",
+          "slug": "ga"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "active-header-links",
@@ -3751,63 +3985,9 @@ export const siteData = {
           "title": "headerAnchorSelector",
           "slug": "headeranchorselector"
         }
-      ]
-    },
-    {
-      "title": "back-to-top",
-      "frontmatter": {
-        "title": "back-to-top",
-        "metaTitle": "Back-To-Top 插件 | VuePress"
-      },
-      "regularPath": "/zh/plugin/official/plugin-back-to-top.html",
-      "relativePath": "zh/plugin/official/plugin-back-to-top.md",
-      "key": "v-1b3bb656",
-      "path": "/zh/plugin/official/plugin-back-to-top.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        }
-      ]
-    },
-    {
-      "title": "google-analytics",
-      "frontmatter": {
-        "title": "google-analytics",
-        "metaTitle": "Google Analytics 插件 | VuePress"
-      },
-      "regularPath": "/zh/plugin/official/plugin-google-analytics.html",
-      "relativePath": "zh/plugin/official/plugin-google-analytics.md",
-      "key": "v-df30c908",
-      "path": "/zh/plugin/official/plugin-google-analytics.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 2,
-          "title": "选项",
-          "slug": "选项"
-        },
-        {
-          "level": 3,
-          "title": "ga",
-          "slug": "ga"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "last-updated",
@@ -3840,35 +4020,9 @@ export const siteData = {
           "title": "dateOptions",
           "slug": "dateoptions"
         }
-      ]
-    },
-    {
-      "title": "blog",
-      "frontmatter": {
-        "title": "blog",
-        "metaTitle": "博客插件 | VuePress"
-      },
-      "regularPath": "/zh/plugin/official/plugin-blog.html",
-      "relativePath": "zh/plugin/official/plugin-blog.md",
-      "key": "v-3bc59ec8",
-      "path": "/zh/plugin/official/plugin-blog.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "功能",
-          "slug": "功能"
-        },
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "medium-zoom",
@@ -3906,7 +4060,9 @@ export const siteData = {
           "title": "options",
           "slug": "options"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "nprogress",
@@ -3934,18 +4090,20 @@ export const siteData = {
           "title": "自定义颜色",
           "slug": "自定义颜色"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
-      "title": "search",
+      "title": "register-components",
       "frontmatter": {
-        "title": "search",
-        "metaTitle": "Search 插件 | VuePress"
+        "title": "register-components",
+        "metaTitle": "注册组件的插件 | VuePress"
       },
-      "regularPath": "/zh/plugin/official/plugin-search.html",
-      "relativePath": "zh/plugin/official/plugin-search.md",
-      "key": "v-ea4f1d60",
-      "path": "/zh/plugin/official/plugin-search.html",
+      "regularPath": "/zh/plugin/official/plugin-register-components.html",
+      "relativePath": "zh/plugin/official/plugin-register-components.md",
+      "key": "v-070d3576",
+      "path": "/zh/plugin/official/plugin-register-components.html",
       "headers": [
         {
           "level": 2,
@@ -3964,20 +4122,22 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "searchMaxSuggestions",
-          "slug": "searchmaxsuggestions"
-        },
-        {
-          "level": 2,
-          "title": "技巧",
-          "slug": "技巧"
+          "title": "componentsDir",
+          "slug": "componentsdir"
         },
         {
           "level": 3,
-          "title": "调整默认颜色",
-          "slug": "调整默认颜色"
+          "title": "components",
+          "slug": "components"
+        },
+        {
+          "level": 3,
+          "title": "getComponentName",
+          "slug": "getcomponentname"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "pwa",
@@ -4045,50 +4205,9 @@ export const siteData = {
           "title": "自定义 SW-Update Popup 的 UI",
           "slug": "自定义-sw-update-popup-的-ui"
         }
-      ]
-    },
-    {
-      "title": "register-components",
-      "frontmatter": {
-        "title": "register-components",
-        "metaTitle": "注册组件的插件 | VuePress"
-      },
-      "regularPath": "/zh/plugin/official/plugin-register-components.html",
-      "relativePath": "zh/plugin/official/plugin-register-components.md",
-      "key": "v-070d3576",
-      "path": "/zh/plugin/official/plugin-register-components.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 2,
-          "title": "选项",
-          "slug": "选项"
-        },
-        {
-          "level": 3,
-          "title": "componentsDir",
-          "slug": "componentsdir"
-        },
-        {
-          "level": 3,
-          "title": "components",
-          "slug": "components"
-        },
-        {
-          "level": 3,
-          "title": "getComponentName",
-          "slug": "getcomponentname"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "Option API",
@@ -4180,7 +4299,54 @@ export const siteData = {
           "title": "extendCli",
           "slug": "extendcli"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "search",
+      "frontmatter": {
+        "title": "search",
+        "metaTitle": "Search 插件 | VuePress"
+      },
+      "regularPath": "/zh/plugin/official/plugin-search.html",
+      "relativePath": "zh/plugin/official/plugin-search.md",
+      "key": "v-ea4f1d60",
+      "path": "/zh/plugin/official/plugin-search.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "选项",
+          "slug": "选项"
+        },
+        {
+          "level": 3,
+          "title": "searchMaxSuggestions",
+          "slug": "searchmaxsuggestions"
+        },
+        {
+          "level": 2,
+          "title": "技巧",
+          "slug": "技巧"
+        },
+        {
+          "level": 3,
+          "title": "调整默认颜色",
+          "slug": "调整默认颜色"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "使用插件",
@@ -4215,7 +4381,9 @@ export const siteData = {
           "title": "对象式",
           "slug": "对象式"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "开发插件",
@@ -4223,7 +4391,19 @@ export const siteData = {
       "regularPath": "/zh/plugin/writing-a-plugin.html",
       "relativePath": "zh/plugin/writing-a-plugin.md",
       "key": "v-c1ea9828",
-      "path": "/zh/plugin/writing-a-plugin.html"
+      "path": "/zh/plugin/writing-a-plugin.html",
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "主题",
+      "frontmatter": {},
+      "regularPath": "/zh/theme/",
+      "relativePath": "zh/theme/README.md",
+      "key": "v-2db0cd56",
+      "path": "/zh/theme/",
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "博客主题",
@@ -4248,7 +4428,9 @@ export const siteData = {
           "title": "使用",
           "slug": "使用"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "默认主题配置",
@@ -4373,7 +4555,9 @@ export const siteData = {
           "title": "特定页面的自定义布局",
           "slug": "特定页面的自定义布局"
         }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "主题的继承",
@@ -4418,72 +4602,9 @@ export const siteData = {
           "title": "访问父主题",
           "slug": "访问父主题"
         }
-      ]
-    },
-    {
-      "title": "主题的配置",
-      "frontmatter": {
-        "metaTitle": "Configuration | Theme"
-      },
-      "regularPath": "/zh/theme/option-api.html",
-      "relativePath": "zh/theme/option-api.md",
-      "key": "v-4e9c8914",
-      "path": "/zh/theme/option-api.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "plugins",
-          "slug": "plugins"
-        },
-        {
-          "level": 2,
-          "title": "devTemplate",
-          "slug": "devtemplate"
-        },
-        {
-          "level": 2,
-          "title": "ssrTemplate",
-          "slug": "ssrtemplate"
-        },
-        {
-          "level": 2,
-          "title": "extend",
-          "slug": "extend"
-        },
-        {
-          "level": 2,
-          "title": "globalLayout",
-          "slug": "globallayout"
-        }
-      ]
-    },
-    {
-      "title": "主题",
-      "frontmatter": {},
-      "regularPath": "/zh/theme/",
-      "relativePath": "zh/theme/README.md",
-      "key": "v-2db0cd56",
-      "path": "/zh/theme/"
-    },
-    {
-      "title": "使用主题",
-      "frontmatter": {},
-      "regularPath": "/zh/theme/using-a-theme.html",
-      "relativePath": "zh/theme/using-a-theme.md",
-      "key": "v-d6bd4330",
-      "path": "/zh/theme/using-a-theme.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "使用来自依赖的主题",
-          "slug": "使用来自依赖的主题"
-        },
-        {
-          "level": 2,
-          "title": "主题的缩写",
-          "slug": "主题的缩写"
-        }
-      ]
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     },
     {
       "title": "开发主题",
@@ -4529,7 +4650,70 @@ export const siteData = {
           "slug": "应用配置"
         }
       ],
-      "excerpt": "<h1 id=\"开发主题\"><a class=\"header-anchor\" href=\"#开发主题\">#</a> 开发主题</h1>\n<p>想要书写一个主题，首先在你文档根目录创建一个 <code>.vuepress/theme</code> 目录，接着创建一个 <code>Layout.vue</code> 文件：</p>\n<pre class=\"vue-container\"><code><p>.\n└─ .vuepress\n └─ <code>theme</code>\n     └─ Layout.vue</p>\n</code></pre><p>到这里，就像开发一个普通的 Vue 应用一样。如何组织你的主题，这完全取决于你。</p>\n<h2 id=\"获取渲染内容\"><a class=\"header-anchor\" href=\"#获取渲染内容\">#</a> 获取渲染内容</h2>\n<p>当前的 <code>.md</code> 文件渲染的内容，可以作为一个独特的全局组件 <code>&lt;Content/&gt;</code> 来使用，你可能想要它显示在页面中的某个地方。一个最简单的主题，可以是一个唯一的 <code>Layout.vue</code> 组件，并包含以下内容：</p>\n<!--beforebegin--><div class=\"language-html extra-class\"><!--afterbegin--><pre v-pre class=\"language-html\"><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>theme-container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>Content</span><span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><strong>更多请阅读:</strong></p>\n<ul>\n<li><RouterLink to=\"/zh/guide/markdown-slot.html\">Markdown 插槽</RouterLink></li>\n</ul>\n<h2 id=\"内容摘抄\"><a class=\"header-anchor\" href=\"#内容摘抄\">#</a> 内容摘抄</h2>\n<p>如果一个 markdown 文件中有一个 `</p>\n"
+      "excerpt": "<h1 id=\"开发主题\"><a class=\"header-anchor\" href=\"#开发主题\">#</a> 开发主题</h1>\n<p>想要书写一个主题，首先在你文档根目录创建一个 <code>.vuepress/theme</code> 目录，接着创建一个 <code>Layout.vue</code> 文件：</p>\n<pre class=\"vue-container\"><code><p>.\n└─ .vuepress\n └─ <code>theme</code>\n     └─ Layout.vue</p>\n</code></pre><p>到这里，就像开发一个普通的 Vue 应用一样。如何组织你的主题，这完全取决于你。</p>\n<h2 id=\"获取渲染内容\"><a class=\"header-anchor\" href=\"#获取渲染内容\">#</a> 获取渲染内容</h2>\n<p>当前的 <code>.md</code> 文件渲染的内容，可以作为一个独特的全局组件 <code>&lt;Content/&gt;</code> 来使用，你可能想要它显示在页面中的某个地方。一个最简单的主题，可以是一个唯一的 <code>Layout.vue</code> 组件，并包含以下内容：</p>\n<!--beforebegin--><div class=\"language-html extra-class\"><!--afterbegin--><pre v-pre class=\"language-html\"><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>theme-container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>Content</span><span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><strong>更多请阅读:</strong></p>\n<ul>\n<li><RouterLink to=\"/zh/guide/markdown-slot.html\">Markdown 插槽</RouterLink></li>\n</ul>\n<h2 id=\"内容摘抄\"><a class=\"header-anchor\" href=\"#内容摘抄\">#</a> 内容摘抄</h2>\n<p>如果一个 markdown 文件中有一个 `</p>\n",
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "使用主题",
+      "frontmatter": {},
+      "regularPath": "/zh/theme/using-a-theme.html",
+      "relativePath": "zh/theme/using-a-theme.md",
+      "key": "v-d6bd4330",
+      "path": "/zh/theme/using-a-theme.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用来自依赖的主题",
+          "slug": "使用来自依赖的主题"
+        },
+        {
+          "level": 2,
+          "title": "主题的缩写",
+          "slug": "主题的缩写"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
+    },
+    {
+      "title": "主题的配置",
+      "frontmatter": {
+        "metaTitle": "Configuration | Theme"
+      },
+      "regularPath": "/zh/theme/option-api.html",
+      "relativePath": "zh/theme/option-api.md",
+      "key": "v-4e9c8914",
+      "path": "/zh/theme/option-api.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "plugins",
+          "slug": "plugins"
+        },
+        {
+          "level": 2,
+          "title": "devTemplate",
+          "slug": "devtemplate"
+        },
+        {
+          "level": 2,
+          "title": "ssrTemplate",
+          "slug": "ssrtemplate"
+        },
+        {
+          "level": 2,
+          "title": "extend",
+          "slug": "extend"
+        },
+        {
+          "level": 2,
+          "title": "globalLayout",
+          "slug": "globallayout"
+        }
+      ],
+      "lastUpdated": "2022/8/31下午5:29:28",
+      "lastUpdatedTimestamp": 1661938168000
     }
   ],
   "themeConfig": {
