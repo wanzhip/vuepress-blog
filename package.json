@@ -28,22 +28,6 @@
     "update-core-team": "all-contributors generate",
     "view-info": "yarn tsc && yarn workspace docs view-info"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "*.{js,ts,vue}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "package.json": [
-      "sort-package-json",
-      "git add"
-    ]
-  },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7",
     "@commitlint/cli": "^8.2.0",
